@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'QS-medium';
+    src: url('../fonts/Quicksand/Quicksand-Medium.ttf') format('truetype') ;
+}
+
+body
+{
+    font-family: 'QS-medium';
+}
+.primary-background {
+    background: #1d2671;
+}
