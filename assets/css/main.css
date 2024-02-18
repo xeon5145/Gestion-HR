@@ -27,3 +27,9 @@ body
 {
     background-color: #1d2671 !important;
 }
+
+.link{
+    text-decoration: none !important;
+    color: #0c83f1 !important;
+    font-weight: 500 !important;
+}
