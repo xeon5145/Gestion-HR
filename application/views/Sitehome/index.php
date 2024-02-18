@@ -16,8 +16,8 @@
                 <div class="">
                     <p class="display-6 text-center mt-2">Login</p>
                     <div class="w-50 m-auto" id="loginForm">
-                        <input class="form-control mt-5" type="text" id="username" placeholder="Username">
-                        <input class="form-control mt-4" type="password" id="password" placeholder="Password">
+                        <input class="form-control mt-5 ct-input" type="text" id="username" placeholder="Username">
+                        <input class="form-control mt-4 ct-input" type="password" id="password" placeholder="Password">
                         <div class="text-center mt-5">
                             <button class="btn btn-primary py-2 px-4">Login</button>
                         </div>

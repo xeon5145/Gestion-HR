@@ -10,3 +10,20 @@ body
 .primary-background {
     background: #1d2671;
 }
+
+.ct-input
+{
+    background-color: transparent !important;
+    border: none !important;
+    border-bottom: 1px solid #000000 !important;
+    border-radius: 0 !important;
+}
+
+.ct-input::placeholder{
+    font-size: medium !important;
+}
+
+.btn-primary
+{
+    background-color: #1d2671 !important;
+}
