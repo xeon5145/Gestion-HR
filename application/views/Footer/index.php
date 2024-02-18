@@ -1,7 +1,7 @@
 <!-- application/views/footer.php -->
 
 <footer class="primary-background text-white py-1">
-    <div class="container fluid">
+    <div class="mt-2 container-fluid text-center">
         <p>&copy; <?php echo date('Y'); ?> Cepa Solutions. All rights reserved.</p>
     </div>
 </footer>
