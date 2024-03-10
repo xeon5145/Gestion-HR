@@ -8,6 +8,7 @@ class Sitehome extends CI_Controller
     {
         parent::__construct();
         $this->load->helper('url');
+        $this->load->model('userAuth_model');
     }
 
 
@@ -22,6 +23,8 @@ class Sitehome extends CI_Controller
         $user = $_POST['user'];
         $password = $_POST['password'];
 
-        var_dump($user, $password);
+        $loginStatus = $this->userAuth_model->userCheck($user,$password);
+
+        echo json_encode($loginStatus);
     }
 }
