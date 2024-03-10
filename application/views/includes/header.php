@@ -21,3 +21,7 @@
             <h3 class="p-1">Gestion HR</h3>
         </div>
     </div>
+
+    <?php
+    // Check if user is logged in the side bar will appear
+    ?>

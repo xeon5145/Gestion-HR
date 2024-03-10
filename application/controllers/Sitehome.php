@@ -30,4 +30,12 @@ class Sitehome extends CI_Controller {
 		$data['pagetitle'] = "Gestion HR : Sitehome";
 		$this->loadview('sitehome/index',$data);
 	}
+
+	public function userauth()
+	{
+		$user = $_POST['user'];
+		$password = $_POST['password'];
+
+		var_dump($user,$password);
+	}
 }
