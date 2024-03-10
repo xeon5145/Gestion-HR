@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'QS-medium';
-    src: url('../fonts/Quicksand/Quicksand-Medium.ttf') format('truetype') ;
+    src: url('../fonts/Quicksand/Quicksand-Medium.ttf') format('truetype');
 }
 
 body
@@ -8,7 +8,7 @@ body
     font-family: 'QS-medium';
 }
 .primary-background {
-    background: #1d2671;
+    background: #1d2671 !important;
 }
 
 .ct-input
