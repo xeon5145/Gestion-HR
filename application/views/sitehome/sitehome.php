@@ -5,7 +5,7 @@
         <div class="col-6">
             <div class="row primary-background">
                 <div class="col-md-12 py-5 text-center" style="transform: scale(0.5);">
-                    <img src="<?php echo base_url('assets/images/Gestin-HR-main.png'); ?>" style="border: 5px solid #ffffff;" />
+                    <img src="<?php echo base_url('../assets/images/Gestin-HR-main.png'); ?>" style="border: 5px solid #ffffff;" />
                 </div>
             </div>
         </div>

@@ -53,5 +53,10 @@ $route['default_controller'] = 'Sitehome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-
+// user authentication routes
 $route['login'] = 'Sitehome/userauth';
+// user authentication routes
+
+// dashbaord routes
+$route['dashboard'] = 'Dashboard';
+// dashbaord routes
