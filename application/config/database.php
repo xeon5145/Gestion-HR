@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
+	'hostname' => 'profile-dev.c4irbtlbvpan.ap-south-1.rds.amazonaws.com',
+	'username' => 'gestionhrms',
+	'password' => 'gestionhrms51451188',
 	'database' => '',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

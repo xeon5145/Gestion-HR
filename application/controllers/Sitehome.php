@@ -18,10 +18,16 @@ class Sitehome extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/userguide3/general/urls.html
 	 */
+	// public function index()
+	// {
+	// 	$this->load->view('Header/index');
+	// 	$this->load->view('Sitehome/index');
+	// 	$this->load->view('Footer/index');
+	// }
+
 	public function index()
 	{
-		$this->load->view('Header/index');
-		$this->load->view('Sitehome/index');
-		$this->load->view('Footer/index');
+		$data['pagetitle'] = "Gestion HR : Sitehome";
+		$this->loadview('sitehome/index',$data);
 	}
 }
